@@ -7,9 +7,9 @@
         public int ExperimentValueId { get; set; }
 
         public ExperimentValue ExperimentValue { get; set; } = null!;
-        
+
         public int DeviceId { get; set; }
 
-        public Device Device { get; set; } = null!; 
+        public Device Device { get; set; } = null!;
     }
 }

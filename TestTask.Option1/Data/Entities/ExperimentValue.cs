@@ -6,6 +6,8 @@
 
         public string Value { get; set; } = null!;
 
+        public float Chanse { get; set; }
+
         public int ExperimentId { get; set; }
 
         public Experiment Experiment { get; set; } = null!;
